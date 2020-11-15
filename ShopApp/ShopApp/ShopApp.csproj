@@ -9,4 +9,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShopApp.Application\ShopApp.Application.csproj" />
+    <ProjectReference Include="..\ShopApp.Data.EF\ShopApp.Data.EF.csproj" />
+    <ProjectReference Include="..\ShopApp.Data\ShopApp.Data.csproj" />
+    <ProjectReference Include="..\ShopApp.Infrastructure\ShopApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShopApp.Utilities\ShopApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

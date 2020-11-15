@@ -4,4 +4,17 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopApp.Data.EF\ShopApp.Data.EF.csproj" />
+    <ProjectReference Include="..\ShopApp.Data\ShopApp.Data.csproj" />
+    <ProjectReference Include="..\ShopApp.Utilities\ShopApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
